@@ -1,0 +1,158 @@
+[
+    {
+        "id": "BRC0915F",
+        "nome": "Frango com açafrão (cúrcuma), c/ sal",
+        "porcao_base_g": 100,
+        "macros": {
+            "calorias": 140.0,
+            "proteinas": 15.7,
+            "carbos": 2.72,
+            "gorduras": 7.36
+        },
+        "preco_adicional": 8.0,
+        "categoria": "proteina"
+    },
+    {
+        "id": "BRC0163F",
+        "nome": "Carne, porco, lombo, assada, s/ óleo, s/ sal, Brasil",
+        "porcao_base_g": 100,
+        "macros": {
+            "calorias": 200.0,
+            "proteinas": 35.7,
+            "carbos": 0.0,
+            "gorduras": 6.4
+        },
+        "preco_adicional": 9.0,
+        "categoria": "proteina"
+    },
+    {
+        "id": "BRC0632F",
+        "nome": "Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal",
+        "porcao_base_g": 100,
+        "macros": {
+            "calorias": 208.0,
+            "proteinas": 35.7,
+            "carbos": 0.0,
+            "gorduras": 7.28
+        },
+        "preco_adicional": 12.0,
+        "categoria": "proteina"
+    },
+    {
+        "id": "BRC0099E",
+        "nome": "Peixe, água doce, Tilápia, filé s/ pele, cozido, s/ óleo, c/ sal",
+        "porcao_base_g": 100,
+        "macros": {
+            "calorias": 112.0,
+            "proteinas": 23.1,
+            "carbos": 0.0,
+            "gorduras": 2.12
+        },
+        "preco_adicional": 14.0,
+        "categoria": "proteina"
+    },
+    {
+        "id": "BRC0056T",
+        "nome": "Tofu, soja, s/ sal, Brasil",
+        "porcao_base_g": 100,
+        "macros": {
+            "calorias": 69.0,
+            "proteinas": 6.55,
+            "carbos": 2.13,
+            "gorduras": 3.95
+        },
+        "preco_adicional": 10.0,
+        "categoria": "proteina"
+    },
+    {
+        "id": "BRD0023A",
+        "nome": "Arroz integral, c/ óleo de soja, c/ sal, Brasil",
+        "porcao_base_g": 100,
+        "macros": {
+            "calorias": 177.0,
+            "proteinas": 3.44,
+            "carbos": 34.6,
+            "gorduras": 3.08
+        },
+        "preco_adicional": 3.0,
+        "categoria": "carboidrato"
+    },
+    {
+        "id": "BRC0884B",
+        "nome": "Batata doce, s/ casca, assada, c/ salsa (salsinha) e pimenta-do-reino, s/ óleo, c/ sal, Brasil",
+        "porcao_base_g": 100,
+        "macros": {
+            "calorias": 144.0,
+            "proteinas": 2.21,
+            "carbos": 35.1,
+            "gorduras": 0.29
+        },
+        "preco_adicional": 3.5,
+        "categoria": "carboidrato"
+    },
+    {
+        "id": "BRC0361B",
+        "nome": "Mandioca (aipim, macaxeira), s/ casca, cozida, assada, s/ óleo, c/ sal",
+        "porcao_base_g": 100,
+        "macros": {
+            "calorias": 183.0,
+            "proteinas": 0.97,
+            "carbos": 45.4,
+            "gorduras": 0.36
+        },
+        "preco_adicional": 3.5,
+        "categoria": "carboidrato"
+    },
+    {
+        "id": "BRC0399A",
+        "nome": "Quinoa, grão, cozida, s/ óleo, s/ sal (dado importado)",
+        "porcao_base_g": 100,
+        "macros": {
+            "calorias": 114.0,
+            "proteinas": 4.4,
+            "carbos": 21.3,
+            "gorduras": 1.92
+        },
+        "preco_adicional": 7.0,
+        "categoria": "carboidrato"
+    },
+    {
+        "id": "BRC0106T",
+        "nome": "Grão de bico, cozido, dreando, s/ óleo, c/ sal",
+        "porcao_base_g": 100,
+        "macros": {
+            "calorias": 114.0,
+            "proteinas": 7.48,
+            "carbos": 20.7,
+            "gorduras": 1.84
+        },
+        "preco_adicional": 6.0,
+        "categoria": "vegetal"
+    },
+    {
+        "id": "BRC0150B",
+        "nome": "Brócolis, flor, cozido, drenado, s/ óleo, c/ sal",
+        "porcao_base_g": 100,
+        "macros": {
+            "calorias": 27.0,
+            "proteinas": 2.71,
+            "carbos": 4.44,
+            "gorduras": 0.54
+        },
+        "preco_adicional": 5.0,
+        "categoria": "vegetal"
+    },
+    {
+        "id": "BRC0913B",
+        "nome": "Cenoura, s/ casca, cozida, drenada, s/ óleo, c/ sal",
+        "porcao_base_g": 100,
+        "macros": {
+            "calorias": 17.0,
+            "proteinas": 0.54,
+            "carbos": 4.3,
+            "gorduras": 0.19
+        },
+        "preco_adicional": 4.0,
+        "categoria": "vegetal"
+    }
+]
