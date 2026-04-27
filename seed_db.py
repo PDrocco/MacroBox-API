@@ -1,7 +1,7 @@
 import json
 import os
 from database import engine, SessionLocal, Base
-from models import Ingrediente, TamanhoMarmita
+from models import Ingrediente, TamanhoMarmita, Usuario
 
 def popular_banco():
     """Script para popular o banco SQLite com dados do arquivo JSON."""
