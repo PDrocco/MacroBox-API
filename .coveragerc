@@ -1,0 +1,4 @@
+[run]
+omit =
+    seed_db.py
+    tests/*

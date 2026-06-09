@@ -1,22 +1,22 @@
+import os
+from dotenv import load_dotenv
 from sqlalchemy import create_engine
-from sqlalchemy.orm import declarative_base, sessionmaker
+from sqlalchemy.orm import sessionmaker, declarative_base
 
-# Conexão com o banco de dados. SQLite para facilitar por enquanto.
-SQLALCHEMY_DATABASE_URL = "sqlite:///./macrobox.db"
+load_dotenv()
 
-# Inicializa o motor do banco.
-engine = create_engine(
-    SQLALCHEMY_DATABASE_URL, connect_args={"check_same_thread": False}
-)
+SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
 
-# Gerenciador de sessões.
+if not SQLALCHEMY_DATABASE_URL:
+    raise ValueError("⚠️ ERRO CRÍTICO: A variável DATABASE_URL não foi encontrada. Verifique o seu arquivo .env!")
+
+engine = create_engine(SQLALCHEMY_DATABASE_URL)
+
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-# Classe base para os modelos.
 Base = declarative_base()
 
 def get_db():
-    """Injeta e gerencia a conexão do banco por requisição."""
     db = SessionLocal()
     try:
         yield db

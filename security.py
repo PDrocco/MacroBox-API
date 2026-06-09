@@ -15,16 +15,13 @@ if not SECRET_KEY:
 
 ALGORITHM = os.getenv("ALGORITHM", "HS256")
 ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "60"))
-
+# O uso do bcrypt atrasa ataques de força bruta ou rainbow tables ao exigir mais tempo de CPU por hash.
 def obter_hash_senha(senha: str) -> str:
-    # Gera o salt e faz o hash
     salt = bcrypt.gensalt()
     hash_bytes = bcrypt.hashpw(senha.encode('utf-8'), salt)
-    # Retorna como string para salvar no banco
     return hash_bytes.decode('utf-8')
 
 def verificar_senha(senha_plana: str, senha_criptografada: str) -> bool:
-    # Verificação direta
     try:
         return bcrypt.checkpw(
             senha_plana.encode('utf-8'), 

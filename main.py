@@ -5,7 +5,7 @@ from slowapi.errors import RateLimitExceeded
 from routers import auth, pedidos
 
 app = FastAPI(title="MacroBox API")
-
+# Configuração de CORS para permitir apenas origens específicas e para evitar ataques de CSRF.
 ORIGENS_PERMITIDAS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
