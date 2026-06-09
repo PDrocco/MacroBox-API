@@ -35,7 +35,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES=60
 DATABASE_URL=sua_string_de_conexao_postgresql_supabase
 ```
 
-> **Importante:** nunca envie o arquivo `.env` para o repositório. Ele deve estar listado no `.gitignore`.
+
 
 ### 2. Configurar ambiente virtual
 
